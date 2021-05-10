@@ -1,0 +1,325 @@
+ *{
+	 margin:0 auto 0 auto;
+	 text-align:left;
+ }
+ 
+ body{
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-size:13px;
+	font-family:arial,helvetica,semi-serif;
+	color:#000000;
+	background-color:#1c478e;
+	background-image:url(../project/prash.png);
+	background-repeat:repeat-x;
+	}
+	
+	
+	
+label{
+display:inline-block;
+width:70px;
+height:50px;
+
+}	
+
+
+#p {
+	
+	width:10px;
+	
+	
+	
+}
+	
+#container{
+	width:960px;
+	
+}
+
+
+#header{
+	width:960px;
+	height:75px;
+}
+
+#header h1{
+	color:#ffffff;
+	padding:20px 0 0 20px;
+	font-size:43px;
+	float:left;
+}
+
+
+
+#header h2{
+	float:right;
+	color:#A9D1FA;
+	padding:40px 20px 0 0;
+	
+}
+
+
+#header h1 span.blue-text{
+	color:#67A0F5;
+}
+
+
+#header h2 span.white-text{
+	color:white;
+}
+
+#menu{
+	display:block;
+	float:left;
+	clear:both;
+	width:960px;
+	height:54px
+}
+
+#menu ul{
+	list-style:none;
+	padding:10px 0 0 0;
+	
+}
+
+#menu li{
+	list-style:none;
+	padding:0;
+	display:inline;
+	    margin-left:20px;
+	
+}
+
+#menu li a{
+	color:white;
+	float:left;
+	text-align:center;
+	font-size:15px;
+	padding:10px 20px 20px 20px;
+	font-weight:bold;   
+    background-color:black;padding:10px;
+	    margin-left:20px;
+}
+		
+#leftmenu {
+	margin-top:10px;
+	margin-left:20px;
+	width:190px;
+	float:left;
+	color:1C478E;
+	border-radius:10px;background-color:blue;margin-right:20px;
+	padding:15px 20px 10px 10px;
+	
+	
+}
+
+#leftmenu ul{
+	list-style:none;
+	
+}
+
+
+#leftmenu li{
+	list-style:none;
+	border-bottom:white dashed 1px;
+	padding:15px 15px 15px 15px;
+	margin-right:10px;
+	margin-left:-40px;
+	margin-right:25px;
+	
+	
+}
+#leftmenu li a{
+	color:white;
+	margin-left:-10px;
+	font-size:15px;
+	font-weight:bold;
+}
+	
+
+#leftmenu h3{
+	color:#ffffff;
+	padding:0;
+	padding-bottom:6px;
+border-bottom:#fff  solid 2px;
+font-size:16px;
+}
+
+/*main styling*/
+
+#content h3{
+	font-size:16px;
+	font-weight:bold;
+	color:#054dbc;
+	padding:10px 0 10px 0;
+}
+	
+
+
+#content {
+	display:block;
+	width:600px;
+	margin-top:15px;
+	background:white;
+	float:right;
+	border-radius:10px;
+	border:6px solid blue;
+	padding:15px;
+	margin-right:50px;
+}
+
+	
+.float{
+	float:right;
+	margin:10px;
+	width:400px;
+}
+
+.developer{
+	float:right;
+	width:130px;
+	
+	padding-left:20px;
+	
+}
+
+
+#content h2{
+    margin-bottom:10px;
+	color:red;
+	padding-bottom:10px;
+}	
+
+.developer h4{
+	color:blue;
+	font-weight:bold;
+	font-size:16px;
+	padding-bottom:10px;
+}
+
+
+.developer ul{
+	list-style:none;
+	
+}
+
+
+
+.developer li{
+	padding-left:-20px;
+	margin-left:-25px;
+	
+}
+
+
+#crown {
+	background-color:red;
+	padding:10px;
+	font-size:15px;
+	font-weight:bold;
+
+	
+}
+
+
+#crown h4{
+	color:black;
+	margin:10px;
+	text-align:center;
+	
+}
+
+
+#ace {
+	background-color:red;
+	margin:20px 0 10px 0;
+	font-weight:bold;
+    text-align:center;
+	font-size:16px;
+	 margin-left:10px;
+}
+
+#diamond {
+	 color:blue;
+	margin:20px 0 10px 0;
+	font-weight:bold;
+    text-align:center;
+	font-size:16px;
+	 margin-left:10px;
+	 
+	 
+}
+	
+
+
+#bronze {
+	background-color:yellow;
+	color:black;
+	text-align:center;
+    margin-left:10px;
+	
+	
+}
+	
+	#sai {
+	background-color:yellow;
+	color:black;
+	text-align:center;
+    margin:0 0 20px 10px;
+	
+	
+}
+	
+	
+	#sai td{
+		text-align:center;
+		
+		
+		
+	}
+	
+	
+	#sai th{
+		text-align:center;
+		
+		
+	}
+	
+	
+	
+	#sra td{
+		text-align:center;
+		
+		
+		
+	}
+	
+	
+	#sra th{
+		text-align:center;
+		
+		
+	}
+	
+	
+	
+	#yummy{
+		padding-bottom:10px;
+		text-align:center;
+		
+		
+	}
+	
+
+footer{
+	text-align:center;
+	color:#ffffff;
+	background:#000000;
+	padding:10px 0 10px 0;
+	margin-top:20px;
+	
+}
+
+
