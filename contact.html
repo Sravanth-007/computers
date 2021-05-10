@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<title>Sravanth Creations</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><span class="blue-text">WEB</span> Developer Directory</h1>
+<h2>Andhra<span class="white-text">University</span></h2>
+</div><!--header end-->
+<div id="menu">
+<ul>
+<li class="menuitem"><a href="index.html">Home</a></li>
+<li class="menuitem"><a href="about.html">About Us</a></li>
+<li class="menuitem"><a href="browse.html">Browse Developers</a></li>
+<li class="menuitem"><a href="contact.html">Contact Us</a></li>
+</ul>
+</div><!--menu end-->
+<div id="leftmenu">
+<h3>Links<h3>
+<ul>
+<li><a href="browse.html">C</a></li>
+<li><a href="browse.html">C++</a></li>
+<li><a href="browse.html">Java</a></li>
+<li><a href="browse.html">Python</a></li>
+<li><a href="browse.html">web designing</a></li>
+<li><a href="browse.html">Cyber Security</a></li>
+<li><a href="browse.html">web programming</a></li>
+<li><a href="browse.html">Machine Learning</a></li>
+<li><a href="browse.html">Game Development</a></li>
+</ul>
+</div><!--leftmenu ends-->
+<div id="content">
+<!--content here--><div style=margin-left:10>
+<h3>contact us</h3>
+<p style=margin-bottom:20px;>please use this form to connect with our website team</p>
+<form action="process.php" method="post">
+		<p>
+
+           <label for="name">Full Name :</label>
+           <input type="text"name="name">
+		   
+        </p>
+		<p>
+		<label for="email">Email Adress:</label>
+		<input type="email"name="email">
+		</p>
+		<p>
+		<label for="Phone number">phone Number:</label>
+		<input type="tel"name=phone>
+		</p>
+		<p>
+		<label for="Call">Best Time To Call</label>
+		<input type="radio"name=call>morning
+		<input type="radio"name=call>evening
+		<input type="radio"name=call>night
+		</p>
+		<p>
+		<label for="website">Current Website:</label>
+		<input type="url" name="website">
+		</p>
+		<p>
+		<label for="start"> Course start Date:</label>
+		<input type="date" name="date">
+		</p>
+		<p>
+		<label for="pages">No of Pages:</label>
+		<input type="number" name="pages">
+		</p>
+		<p>
+		<fieldset>
+		<legend>About Your Project</legend>
+		</p>
+		<p>
+		<label for="Budget">Budget:</label>
+		<select type"list"name=budget>
+		<option>...select one...</option>
+		<option value="100-500">$100-$500</option>
+		<option value="500-5000">$500-$1000</option>
+		<option value="1000-2000">$1000-$2000</option>
+		<option value="2000-3000">$2000-$3000</option>
+		<option value="3000-4000">$3000-$4000</options>
+		<option value="not sure">$not sure</options>
+		</select>
+		</p>
+		<p style=margin-bottom:20px;>
+		<label for="call">Services Needed:(check all that apply)</label>
+		<table style=float:left;margin-bottom:10px;>
+		<tr>
+		<td><input type="checkbox";name="html";value="html">html</td>
+		<td><input type="checkbox";name="css";value="css">css</td>
+		</tr>
+		<tr>
+		<td><input type="checkbox";name="java";value="java">java</td>
+		<td><input type="checkbox";name="python";value="python">python</td>
+		</tr>
+		<tr>
+		<td><input type="checkbox";name="java script";value="java script">java script</td>
+		<td><input type="checkbox";name="web design";value="web design">web design</td>
+		</tr>
+		<tr>
+		<td><input type="checkbox";name="c++";value="c++">c++</td>
+		<td><input type="checkbox";name="boostrap";value="bootstrap">bootstrap</td>
+        </tr>
+		</p>
+		</table>
+<p>		
+		<div id="p">
+		<div style="clear:both"></div>
+		<input type="submit" name="submit" value="submit form" >
+</div>	
+	</p>	
+		
+</form>
+		
+
+</div><!--content end-->
+
+</div><!--container end-->
+<div style="clear:both"></div>
+<footer>
+Copyright@2020.Sravanth
+</footer>
+</body>
+</html>
